@@ -1,5 +1,7 @@
+'use client';
+
 import React from 'react';
-import { InputField, SelectFormField } from '@/components/forms/fields';
+import { InputField } from '@/components/forms/fields';
 
 const ParentalInformation = ({ form }: any) => {
   return (
