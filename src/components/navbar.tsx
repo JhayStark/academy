@@ -13,7 +13,7 @@ import { Button } from '@/components/ui/button';
 
 const Navbar = () => {
   return (
-    <nav className='text-white flex items-center justify-between pb-4'>
+    <nav className=' flex items-center justify-between pb-4'>
       <h2>Academy</h2>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>

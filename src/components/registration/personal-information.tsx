@@ -34,20 +34,6 @@ const PersonalInformation = ({ form }: any) => {
         name='sex'
         required
       />
-      <InputField
-        name='phone'
-        label='Player phone number'
-        placeholder='0201234567'
-        form={form}
-        required
-      />
-      <InputField
-        name='email'
-        label='Player email'
-        placeholder='johndoe@gmail.com'
-        form={form}
-        required
-      />
     </>
   );
 };

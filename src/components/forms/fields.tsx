@@ -73,7 +73,7 @@ export const InputField = ({
       control={form.control}
       name={name}
       render={({ field }) => (
-        <FormItem className='text-white '>
+        <FormItem className=' '>
           <FormLabel className='flex items-end gap-1'>
             {label}
             {required && <Asterisk className='text-red-500 ' size={14} />}
@@ -97,7 +97,7 @@ export const InputField = ({
 const RadioItem = ({ value }: any) => (
   <FormItem className='flex items-center space-x-3 space-y-0'>
     <FormControl>
-      <RadioGroupItem value={value} className='border-white text-blue-500' />
+      <RadioGroupItem value={value} className=' text-blue-500' />
     </FormControl>
     <FormLabel className='font-normal'>{value}</FormLabel>
   </FormItem>
@@ -115,7 +115,7 @@ export const RadioField = ({
       control={form.control}
       name={name}
       render={({ field }) => (
-        <FormItem className='space-y-3 text-white'>
+        <FormItem className='space-y-3 '>
           <FormLabel className='flex items-end gap-1'>
             {label}
             {required && <Asterisk className='text-red-500 ' size={14} />}
@@ -168,7 +168,7 @@ export const SelectFormField = ({
       name={name}
       render={({ field: { name, onBlur, onChange, ref } }) => (
         <FormItem>
-          <FormLabel className='text-white'>{label}</FormLabel>
+          <FormLabel className=''>{label}</FormLabel>
           <FormControl>
             <Select
               options={options}
@@ -180,7 +180,6 @@ export const SelectFormField = ({
               isLoading={isLoading}
               placeholder={placeholder}
               value={options.find(c => c.value === form.watch(name)) || null}
-              styles={customStyles}
             />
           </FormControl>
 
@@ -204,7 +203,7 @@ export const DatePicker = ({
       control={form.control}
       name={name}
       render={({ field }) => (
-        <FormItem className='flex flex-col text-white'>
+        <FormItem className='flex flex-col '>
           <FormLabel className='flex items-end gap-1'>
             {label}
             {required && <Asterisk className='text-red-500 ' size={14} />}
@@ -215,7 +214,7 @@ export const DatePicker = ({
                 <Button
                   variant={'outline'}
                   className={cn(
-                    ' pl-3 text-left font-normal bg-inherit border-gray-700 hover:bg-inherit hover:text-white',
+                    ' pl-3 text-left font-normal bg-inherit border-gray-700 hover:bg-inherit hover:',
                     !field.value && 'text-muted-foreground'
                   )}
                 >

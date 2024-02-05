@@ -33,9 +33,9 @@ const menuItems = [
 const Layout = ({ children }: LayoutProps) => {
   const pathName = usePathname();
   return (
-    <div className='bg-gray-900 min-h-[100vh] py-5 md:pt-14 px-3'>
+    <div className=' min-h-[100vh] py-5 md:pt-14 px-3 md:px-5 lg:px-3'>
       <div className='mx-auto max-w-[1040px]'>
-        <div className='text-white'>
+        <div className=''>
           <Navbar />
           <div className='flex transition-all pb-8'>
             {!pathName.includes('registration') &&
