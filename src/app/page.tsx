@@ -33,11 +33,9 @@ export default function Home() {
 
         <div className='absolute top-0 left-0 w-full h-full flex-col flex items-center justify-center'>
           <div className='absolute top-0 left-0 w-full h-full bg-black opacity-70'></div>
-          <div className='w-[500px] space-y-3 text-white text-6xl pb-7 relative z-10'>
-            <p className='w-full text-center'>WELCOME</p>
-            <p className='w-full'>TO DUMMY</p>
-            <p className='w-full text-right'>FOOTBALL</p>
-            <p className='w-full text-center'>ACADEMY</p>
+          <div className='space-y-3 text-white text-6xl pb-7 relative z-10 text-center'>
+            <p className='w-full '>WELCOME TO DUMMY FOOTBALL</p>
+            <p className='w-full '> ACADEMY</p>
           </div>
           <Button variant='link' className='bg-white rounded-2xl relative z-10'>
             ENQUIRE

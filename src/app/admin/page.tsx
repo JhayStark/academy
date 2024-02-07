@@ -55,7 +55,9 @@ const Page = () => {
             Add New
           </DropdownMenuTrigger>
           <DropdownMenuContent>
-            <DropdownMenuItem>Player</DropdownMenuItem>
+            <Link href='/admin/players/add'>
+              <DropdownMenuItem>Player</DropdownMenuItem>
+            </Link>
             <DropdownMenuItem>Team</DropdownMenuItem>
             <DropdownMenuItem>Coach</DropdownMenuItem>
           </DropdownMenuContent>
